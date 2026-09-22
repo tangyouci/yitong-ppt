@@ -21,7 +21,7 @@
 
 ## 安装
 
-将整个仓库复制到 Codex 的 Skills 目录，并确保目录名为 `yitong-ppt`。
+直接复制该页面网址给codex等agent，告诉它——“请帮我安装这个skill，并告诉我如何正确使用”。
 
 ### Windows PowerShell
 

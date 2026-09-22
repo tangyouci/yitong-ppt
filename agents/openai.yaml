@@ -1,0 +1,7 @@
+interface:
+  display_name: "异瞳PPT"
+  short_description: "Create evidence-led academic and project PPTX decks"
+  default_prompt: "Use $yitong-ppt to plan an evidence-led narrative, select the academic or project route, create the slides, and deliver a validated editable PPTX."
+policy:
+  allow_implicit_invocation: true
+

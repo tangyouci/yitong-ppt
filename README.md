@@ -148,6 +148,15 @@ flowchart LR
 
 ## 一分钟安装
 
+### 最省事的方式
+
+把本仓库网址复制给 Codex 或其他支持 Skill 的 Agent，并告诉它：
+
+```text
+请帮我安装 https://github.com/tangyouci/yitong-ppt，
+并告诉我如何正确使用这个 Skill。
+```
+
 ### 使用 Skills CLI
 
 ```bash
@@ -331,4 +340,3 @@ yitong-ppt/
 ## License
 
 [MIT](LICENSE)
-

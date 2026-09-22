@@ -1,0 +1,24 @@
+name: Feature request
+description: Propose a new report pattern, workflow improvement, or public example.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Presentation scenario
+      description: Describe the audience, report type, and failure this should solve.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Public example or evidence
+      description: Include only material you have permission to share.
+

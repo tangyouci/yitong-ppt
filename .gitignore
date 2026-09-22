@@ -3,4 +3,6 @@ Thumbs.db
 *.tmp
 *.bak
 ~$*.pptx
-
+.tmp/
+__pycache__/
+*.pyc

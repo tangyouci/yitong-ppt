@@ -1,44 +1,39 @@
 <div align="center">
 
+<img src="assets/yitong-mascot.png" alt="白猫异瞳的插画形象：一只琥珀眼睛，一只蓝眼睛" width="190">
+
 # 异瞳PPT · Yitong PPT
 
-### 把材料变成讲得清、站得住、还能继续编辑的汇报 PPT
+**同一份材料，两种目光。**
+
+蓝眼看证据，琥珀眼看听众。
 
 [![Validate](https://github.com/tangyouci/yitong-ppt/actions/workflows/validate.yml/badge.svg)](https://github.com/tangyouci/yitong-ppt/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](LICENSE)
 [![Codex Skill](https://img.shields.io/badge/Codex-Skill-EF2B2D)](SKILL.md)
 [![PPTX](https://img.shields.io/badge/Output-Editable%20PPTX-1677FF)](#最终交付)
 
-**学术汇报 · 论文分享 · 项目进展 · 领导汇报 · 答辩 · Tutorial**
+学术汇报 · 项目汇报 · 可编辑 PPTX
 
 </div>
 
-<p align="center">
-  <img src="assets/cases/football-overview.png" alt="异瞳PPT 足球算法项目汇报案例" width="100%">
-</p>
+## 她叫异瞳
 
-> 这不是一套换颜色的 PPT 模板。异瞳PPT 是一个面向 Codex 的汇报工作流 Skill：先理解材料和受众，再组织证据、规划页面，最后交付经过检查的可编辑 PPTX。
+“异瞳”指两只眼睛颜色不同。首页的白猫形象取自我养的猫：一只是蓝眼睛，一只是琥珀眼睛，她的名字就叫异瞳。
 
-## 为什么做这个 Skill
+我把这个名字借给了做汇报的 Skill。写一页 PPT 时，用一只眼睛追问事实是否站得住，再用另一只眼睛想：坐在台下的人，能不能跟上这一页？两边都看清，才开始画。
 
-常见的 AI PPT 工具擅长“快速铺满十几页”，却容易出现四个问题：叙事像文档摘要、页面只有装饰没有证据、数字与结论失去来源、最终文件难以继续修改。
-
-异瞳PPT 把重点放在汇报真正需要的闭环：
-
-| 普通生成方式 | 异瞳PPT |
+| 看材料 | 看听众 |
 | --- | --- |
-| 根据一句话直接批量生成页面 | 先识别受众、时长、目标和证据边界 |
-| 学术与项目汇报共用一套套路 | 分别采用学术叙事与项目决策叙事 |
-| 图很多，但与结论关系弱 | 每页围绕一个问题和一条可见证据链 |
-| 复杂页面直接压成整张图片 | 图片版用于探索，主要结构重建为可编辑对象 |
-| 容易把计划、目标写成已经完成 | 明确区分实测结果、估算、目标、计划和示意 |
-| 文件生成后就结束 | 渲染检查排版、图表、引用、事实和可编辑性 |
+| 这句话有来源吗？图和数字能撑住它吗？ | 这一页回答了什么问题？听众一眼能抓住重点吗？ |
+
+异瞳PPT 把这个习惯写进了 [Codex Skill](SKILL.md)：先读材料，按学术或项目汇报规划页面；复杂页面可以先做图片草案，再重建成可编辑的 PowerPoint。猫咪是仓库的名字和标识，做出来的 PPT 会遵循你的主题和母版。
 
 ## 真实使用案例：足球算法项目汇报
 
-下面三页来自真实项目汇报。这个案例展示了异瞳PPT最核心的页面语言：**真实画面、结构关系、量化证据和一句可验证结论放在同一页内**。
+下面三页来自真实的足球算法项目汇报，展示了“真实画面、结构关系、量化证据和一句可验证结论放在同一页内”的页面语言。它们不是空白模板；每个指标和结论仍要以新任务的材料重新核对。
 
-### 示例请求
+### 用类似材料，可以这样提问
 
 ```text
 使用 $yitong-ppt，把足球算法的追踪、局部事件识别和比赛态势理解，
@@ -55,10 +50,10 @@
 ### 1. 总览页：把多个算法任务组织成一条主线
 
 <p align="center">
-  <img src="assets/cases/football-overview.png" alt="足球算法三项任务总览" width="100%">
+ <img src="assets/cases/football-overview.png" alt="足球算法三项任务总览" width="100%">
 </p>
 
-这类页面用于建立听众的全局认知。Skill 会先提炼任务之间的递进关系，再决定哪些真实画面、指标和结论应当出现在同一页，而不是简单罗列模块名称。
+原始材料里有追踪、局部事件和比赛态势三项任务。这一页把它们的关系、画面证据和阶段结果放在一起，让第一次听项目的人先看懂全貌。
 
 ### 2. 诊断页：结果、短板和后续方法在同一页闭环
 
@@ -77,13 +72,13 @@
 这一页采用“已有技术 → 场景适配 → 球员级评估 → 结果解释”的结构。方法图、评测范围和量化变化互相对应，避免把一张网络结构图当成完整论证。
 
 <details>
-<summary><strong>这个案例中，Skill 实际做了哪些判断？</strong></summary>
+<summary><strong>这三页的结构可以怎样复用？</strong></summary>
 
 1. 将领导关心的内容从算法细节改写为挑战、贡献、证据和进度。
 2. 将追踪、局部事件和全局态势组织成三个层次，而不是三个孤立章节。
 3. 保留数据集、指标口径和评估对象，避免把不同层级的 F1 混为一谈。
 4. 用真实比赛画面、局部裁剪、时序条带和紧凑图表替代泛化图标。
-5. 将标题、文字、框线、箭头、图表和结论保留为可编辑对象。
+5. 交付 PPTX 时，把标题、文字、框线、箭头、图表和结论重建为可编辑对象。
 
 </details>
 
@@ -273,6 +268,7 @@ npx skills update yitong-ppt -g -y
 yitong-ppt/
 ├─ SKILL.md                       # Skill 入口与主流程
 ├─ agents/openai.yaml             # Codex 界面元数据
+├─ assets/yitong-mascot.png        # 以异瞳本猫为原型的首页形象
 ├─ references/
 │  ├─ academic-report.md          # 学术汇报模块
 │  ├─ project-report.md           # 项目汇报模块

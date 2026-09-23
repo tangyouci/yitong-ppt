@@ -2,6 +2,8 @@
 
 Apply these defaults unless the user provides an approved template or brand guide.
 
+The repo's cat and its blue and amber eyes are a brand motif. They represent the evidence view and the audience view; they are not mandatory slide decorations or a required deck palette.
+
 ## Typography
 
 - Use one Chinese family and one Latin family consistently. Prefer broadly available fonts such as Microsoft YaHei plus Aptos or Calibri; use a source-faithful serif font for academic quotations or citations when needed.
@@ -44,4 +46,3 @@ These are starting points, not quotas. Never invent content to fill space.
 - Important claims have nearby evidence.
 - Citations, metric scope, and status labels remain legible in the rendered slide.
 - Decorative elements do not compete with the argument.
-

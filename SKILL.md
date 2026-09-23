@@ -5,7 +5,7 @@ description: "Plan, design, create, revise, and validate clear editable PPTX pre
 
 # 异瞳PPT
 
-Create presentation decks that help a specific audience understand, decide, or act. Ground the narrative in the current task's materials, keep one main idea per slide, and prefer visible evidence over decorative filler.
+Create presentation decks that help a specific audience understand, decide, or act. 异瞳 means eyes of different colors and is the name of the white cat behind this skill. Apply two views on each key slide: check the evidence behind the claim, then check what the audience will understand. Ground the narrative in the current task's materials, keep one main idea per slide, and prefer visible evidence over decorative filler.
 
 ## Choose the report route
 
@@ -19,7 +19,7 @@ Always read [references/design-system.md](references/design-system.md) before cr
 
 1. Inspect the supplied documents, data, images, videos, code outputs, experiments, and existing decks. Separate verified facts, interpretation, targets, plans, and missing evidence.
 2. Determine the audience, duration, presentation setting, desired outcome, and the one message the audience should retain.
-3. Create a page map before drawing. Give every slide one role, one main idea, one dominant visual, and one spoken takeaway. Remove pages that do not advance the narrative.
+3. Create a page map before drawing. Give every slide one role, one main idea, one dominant visual, and one spoken takeaway. For each key slide, ask both: "What supports this?" and "What will this audience take away?" Remove pages that do not advance the narrative.
 4. Reuse an approved master or existing deck when supplied. Learn its layout and visual grammar without copying unsupported facts or claims.
 5. Choose the production path:
    - Build simple text, chart, table, and comparison pages directly as editable slides.
@@ -47,4 +47,3 @@ If the user asks for end-to-end delivery, continue through the editable PPTX wit
 ## Deliverables
 
 For a full creation task, provide the editable PPTX and rendered previews. Mention any important source gaps and any regions that remain raster images. Do not call a storyboard, draft image, or unverified file a completed presentation.
-

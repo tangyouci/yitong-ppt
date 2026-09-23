@@ -4,8 +4,6 @@
 
 # 异瞳PPT · Yitong PPT
 
-**同一份材料，两种目光。**
-
 蓝眼看证据，琥珀眼看听众。
 
 [![Validate](https://github.com/tangyouci/yitong-ppt/actions/workflows/validate.yml/badge.svg)](https://github.com/tangyouci/yitong-ppt/actions/workflows/validate.yml)

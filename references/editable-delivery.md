@@ -1,25 +1,21 @@
-# Editable delivery and review
+# Editable delivery without losing the visual design
 
 ## Reconstruction
 
-1. Start from a clean slide or the user's approved master.
-2. Recreate titles, text, labels, shapes, arrows, charts, tables, and major relationships as native editable objects.
-3. Keep only inherently raster regions—photos, screenshots, video frames, heatmaps, or dense generated illustrations—as images.
-4. Do not use a complete generated slide as a flattened background for the final deck when editability is requested.
-5. Preserve media aspect ratio and use a clear placeholder when an embed cannot be produced reliably.
-6. Build and render the hardest representative slide early when the deck has a new visual system.
+1. Start with a clean slide or approved master. Preserve the image draft's reading order, panel proportions, image prominence, and meaningful visual density.
+2. Rebuild titles, text, labels, arrows, tables, chart axes/series, and major diagram relationships as native editable objects. Render quantitative charts from the verified data.
+3. Keep original photos, video frames, paper figures, screenshots, and valid heatmaps as coherent image regions. Preserve aspect ratios and correct scene/crop correspondence. Do not replace a useful source image with an unrelated icon or turn a rich visual explanation into a chain of empty rectangles.
+4. Do not flatten the generated whole slide as the background of an “editable” deck. Do not cover baked-in text with many white rectangles; this leaves residual glyphs and broken borders. Rebuild on a clean canvas using source assets or clean, deliberate image regions.
+5. Reconcile every visible figure, number, and label with current evidence. Correct a factual flaw in the draft rather than reproducing it for visual fidelity.
+6. Render one representative difficult page beside its draft when establishing a new layout. Once it works, reuse the method and inspect the final affected pages; do not impose another whole-deck design round.
 
-## Render-based review
+## Review the actual output
 
-For layout-sensitive creation or major editing, inspect the rendered slides for:
+- The same useful visual modules remain prominent and readable; conversion has not reduced the page to text boxes.
+- No clipping, overlap, stretched media, broken glyphs, duplicate titles, or residual generated labels.
+- Charts preserve the intended data, units, series, and comparison conditions.
+- Arrows and captions agree with the mechanism; crop and frame order agree with the source.
+- Titles, body text, metrics, charts, and structural relationships are editable.
+- The result and its scope remain clear; full provenance can live in notes without repetitive fine-print commentary.
 
-- overflow, clipping, overlap, broken glyphs, duplicate headings, or border gaps;
-- readable typography, consistent navigation, and adequate contrast;
-- correct charts, axes, values, labels, and comparison scope;
-- image identity, crop, aspect ratio, and source attribution;
-- consistent technical meaning across diagrams, captions, and conclusions;
-- editable titles, metrics, shapes, connectors, and major relationships;
-- traceability of claims and numbers to the supplied or verified sources.
-
-Deliver the PPTX with previews and identify any complex visual regions that remain bitmap images.
-
+Deliver the editable PPTX with previews. Briefly identify the complex regions that remain images. For an explicitly requested image-only deck, use the image delivery path instead of requiring reconstruction.

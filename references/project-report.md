@@ -21,6 +21,8 @@ For a repeating technical work package, use:
 - Technical review: interfaces, data flow, failure analysis, evaluation conditions, reproducibility, and limits.
 - Team execution: ownership, blockers, status, and next actions.
 
+For visual construction and plain-language examples, read [visual-storytelling.md](visual-storytelling.md). Prefer one coherent question, operation, and result over a page of implementation variants.
+
 ## Useful page archetypes
 
 - Three-part challenge page using real failure scenes.
@@ -28,7 +30,7 @@ For a repeating technical work package, use:
 - Matched before-and-after evidence with controlled conditions.
 - Method adaptation with project-specific change and result.
 - Progress dashboard separating achieved, in progress, target, and blocked.
-- Risk and decision page with issue, impact, evidence, mitigation, owner, and requested decision.
+- Risk and decision page with the issue, evidence, and next measure or requested decision. Include owners only when the audience and user request require assignments.
 - Final summary by work package with next action.
 
 ## Evidence and status checks

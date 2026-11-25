@@ -12,7 +12,7 @@ The repo's cat and its blue and amber eyes are a brand motif. They represent the
 
 ## Canvas and hierarchy
 
-- Default to 16:9 with stable margins, title alignment, navigation, and page numbering.
+- Default to 16:9 with stable margins, title alignment, navigation, and page numbering. For the original research-report style, use a large left-aligned black title and a long rule below it, with two or three purposeful content regions. Black rounded frames may organize dense evidence; they are not compulsory decoration.
 - Give each slide one main idea and one dominant visual hierarchy.
 - Use section pages at meaningful transitions, not as decoration.
 - Use whitespace to separate groups. Density should come from evidence and relationships, not from filling every gap.
@@ -26,7 +26,7 @@ The repo's cat and its blue and amber eyes are a brand motif. They represent the
 
 ## Visual language
 
-- Prefer real figures, experiment outputs, screenshots, field scenes, diagrams, timelines, and compact charts over generic icons.
+- Prefer real figures, experiment outputs, screenshots, field scenes, diagrams, timelines, and compact charts over generic icons. Use scene-to-crop correspondence, temporal strips, and method/result pairing as described in [visual-storytelling.md](visual-storytelling.md).
 - Place labels near the objects or transitions they explain.
 - Use consistent connector weight and direction. Main flow should be visually stronger than secondary relations.
 - Preserve image aspect ratio and crop intentionally.
@@ -44,5 +44,5 @@ These are starting points, not quotas. Never invent content to fill space.
 - No overflow, clipping, overlap, stretched media, broken glyphs, or unreadable labels.
 - Comparable page types use consistent fonts, spacing, and hierarchy.
 - Important claims have nearby evidence.
-- Citations, metric scope, and status labels remain legible in the rendered slide.
+- Essential metric scope and status remain legible beside the result. Keep full source records in notes or a source page; avoid tiny voiceover-style footers. Do not remove conditions that would change the interpretation.
 - Decorative elements do not compete with the argument.
